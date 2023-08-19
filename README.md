@@ -29,22 +29,22 @@ git clone [repository-url]
 
 ### Chi-square Test for Sample Ratio Mismatches
 
-This test checks if there's a significant difference between observed and expected frequencies in one or more categories of a contingency table. Refer to [chi_test.py](path/to/chi_test.py) for the implementation.
+This test checks if there's a significant difference between observed and expected frequencies in one or more categories of a contingency table. Refer to [chi_square_srm.py](chi_square_srm.py) for the implementation.
 
 ### T-testing for Mean
 
 This test compares the means of two independent samples. There are two versions available:
 
-- Newer Version: See [ttest_new.py](path/to/ttest_new.py)
+- See [t_test_means.py](t_test_means.py) 
 
 
 ### T-testing for Segments
 
-This test is applied multiple times in a loop for different segments. For detailed implementation, check [ttest_segments.py](path/to/ttest_segments.py).
+This test is applied multiple times in a loop for different segments. For detailed implementation, check [t_test_segments.py](t_test_segments.py).
 
 ### FDR Corrections
 
-This provides a method to correct the false discovery rate. Implementation can be found in [fdr_correction.py](path/to/fdr_correction.py).
+This provides a method to correct the false discovery rate. Implementation can be found in [fdr_correction_multiple_comparison_problem.py](fdr_correction_multiple_comparison_problem.pyy).
 
 ## Contributors
 
